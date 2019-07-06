@@ -1,7 +1,7 @@
 # SpringCloudEasyStarter
 A simple Spring cloud project with most common components for easy startup.  
 **This project address followig issues:**    
-- Configutaion Management  
+- Configuration Management  
 - Service discovery  
 - Gateway and reverse proxy  
 - Log monitoring  
@@ -34,7 +34,9 @@ A simple Spring cloud project with most common components for easy startup.
      
   - **Gateway**  
      This module will act as a gateway and reverse proxy for our application.  
-     Client only need to know the Gateway domain and port and no need to bother about CORS issues, it will internally mapping request to corresponding service.Also request will be load balanced internally.Even though we have many micro services, for the clinet they will feel like calling a traditional Monolithic application :smile:  
+     Client only need to know the Gateway domain and port and no need to bother about CORS issues, it will internally mapping request to corresponding service.Also request will be load balanced internally.Even though we have many micro services, for the client, they will feel like calling a traditional Monolithic application :smile:  
+     You can add you autentication and authorization logic may be here.  
+     
 
 
 How to start?  
