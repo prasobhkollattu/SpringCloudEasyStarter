@@ -38,7 +38,7 @@ SpringCloud is a wrapper around SpringBoot to address issues in distributed envi
      Eg URL: http://192.168.0.87:64826/actuator/refresh  
      
     Try calling http://localhost:8080/book-service/books/message again.It will show new message.Its also show server instance id in reponse to show load balancing.    
-     
+    **Note**: Please refer BookServiceApplicationTests to see a baci unit testing with mocking.  
      
      
    - **StoreService**  
