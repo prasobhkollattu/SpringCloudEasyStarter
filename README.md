@@ -31,7 +31,7 @@ Application have following modules and should be started sequentially.
      
   - **Gateway**  
      This module will act as a gateway and reverse proxy for our application.  
-     Client only need to know the Gateway domain and port, it will internally mapping request to corresponding service.Also request will be load balaced internally.  
+     Client only need to know the Gateway domain and port and no need to bother about CORS issues, it will internally mapping request to corresponding service.Also request will be load balanced internally.Even though we have many micro services, for the clinet they will feel like calling a traditional moniletic application :smile:  
 
 
 How to start?  
