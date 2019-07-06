@@ -40,9 +40,9 @@ A simple Spring cloud project with most common components for easy startup.
 
 
 **How to start?**  
-1.Install Spring Tool Suit:  
+- Install Spring Tool Suit:  
   [SpringToolSuite](https://spring.io/tools)  
-2.Import Existing Maven project and browse root pom.xml.  
+- Import Existing Maven project and browse root pom.xml.  
   
 
 **Test urls:**   
