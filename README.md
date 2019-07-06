@@ -15,7 +15,7 @@ A simple Spring cloud project with most common components for easy startup.
   
  - **ConfigServer**    
    This module will take care of all services configuration  
-   Please copy folder git_repo\application-config in any of your system folder and update in application.properties.     
+   Please copy folder **git_repo\application-config** into any of your system folder and update in application.properties.     
    All configurations should be in a seperate git folder, normally it should be in git repo.In this project I have used file url.
   The git file url should be updated in **ConfigServer\src\main\resources\application.properties**  
   - **ZipkinServer**  
