@@ -16,8 +16,8 @@ Application have following modules and should be started sequentially.
  - **ConfigServer**    
    This module will take care of all services configuration  
    Please copy folder git_repo\application-config in any of your system folder and update in application.properties.     
-   All configurations should be in a seperate git folder, normally it should be in git repo.In this project I have used file file url.
-  The git file url should be update in **ConfigServer\src\main\resources\application.properties**  
+   All configurations should be in a seperate git folder, normally it should be in git repo.In this project I have used file url.
+  The git file url should be updated in **ConfigServer\src\main\resources\application.properties**  
   - **ZipkinServer**  
     This module used for starting zipkin server and all logs can be monitored here.  
     http://localhost:9411/zipkin   
