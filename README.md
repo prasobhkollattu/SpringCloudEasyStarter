@@ -1,19 +1,19 @@
 # SpringCloudEasyStarter
 A simple Spring cloud project with most common components for easy startup.  
 This project address followig issues:  
-1.Configutaion Management  
-2.Service discovery  
-3.Gateway and reverse proxy  
-4.Log monitoring  
-5.Load balancing  
+- Configutaion Management  
+- Service discovery  
+- Gateway and reverse proxy  
+- Log monitoring  
+- Load balancing  
 
 Application have following modules and should be started sequentially.   
-1.DiscoveryServer  
+- **DiscoveryServer**  
   This module will start Euereka server and all services will be registered and discoved here.  
   Eureka:    
   http://localhost:8761/    
   
- 2.ConfigServer  
+ - **ConfigServer**    
    This module will take care of all services configuration  
    
 
