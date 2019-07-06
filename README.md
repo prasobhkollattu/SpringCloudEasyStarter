@@ -15,6 +15,9 @@ Application have following modules and should be started sequentially.
   
  - **ConfigServer**    
    This module will take care of all services configuration  
+  - **ZipkinServer**
+    This module used for starting zipkin server and all logs can be moniroting here
+    http://localhost:9411/zipkin 
    
 
 
