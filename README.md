@@ -16,8 +16,14 @@ Application have following modules and should be started sequentially.
  - **ConfigServer**    
    This module will take care of all services configuration  
   - **ZipkinServer**  
-    This module used for starting zipkin server and all logs can be moniroting here
-    http://localhost:9411/zipkin 
+    This module used for starting zipkin server and all logs can be monitored here.  
+    http://localhost:9411/zipkin   
+  - **BookService**  
+     This is a boot micro service to deliver books and this service internally call StoreService if some books are not available.
+     You can start any number of instance of this service.It will automatically get a random port.And this service will be invoked using gateway url.  
+     http://localhost:8080/book-service/books    
+     port 808 is of Gateway  
+  
    
 
 
