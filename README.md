@@ -20,7 +20,7 @@ Application have following modules and should be started sequentially.
 
 How to start?  
 1.Install Spring Tool Suit:  
-  https://spring.io/tools  
+  [SpringToolSuite](https://spring.io/tools)  
 2.Import Existing Maven project and browse root pom.xml.  
 
 
