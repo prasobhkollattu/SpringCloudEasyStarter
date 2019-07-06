@@ -26,7 +26,7 @@ Application have following modules and should be started sequentially.
      
    - **StoreService**  
      This is a boot micro service to deliver books and this service.You can start any number of instance of this service.It will automatically get a random port.And this service will be invoked using Gateway url.    
-     http://localhost:8080/book-service/books    
+     http://localhost:8080/store-service/book     
      **Note** Port 8080 is of Gateway     
      
   
