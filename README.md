@@ -27,7 +27,17 @@ SpringCloud is a wrapper around SpringBoot to address issues in distributed envi
      This is a boot micro service to deliver books and this service internally call StoreService if some books are not available.
      **You can start any number of instance of this service**.It will automatically get a random port.And this service will be invoked using Gateway url.  Internally it will also do load balancing and decide which instnace of StoreService need to be called.  
      http://localhost:8080/book-service/books    
-     **Note:** Port 8080 is of Gateway     
+     **Note:** Port 8080 is of Gateway   
+     
+     In the BookService controller we have a property called **message**.This can be reloaded from external configuration in book-service.properties.Just add some new value, this values will be refelcted in all services.  
+     
+     http://localhost:8080/book-service/books/message
+     
+     However we have to make a explicit refresh call to our service using acuator.
+     Fina any instance of the service from Eureka and clik on it it will showing like http://192.168.0.87:64826/actuator/info, port will be differnt.Chand info with refresh and hit.This will refesh prop val in all service intsances.       
+     Eg URL: http://192.168.0.87:64826/actuator/refresh
+     
+     
      
    - **StoreService**  
      This is a boot micro service to deliver books and this service.**You can start any number of instance of this service**.It will automatically get a random port.And this service will be invoked using Gateway url.    
