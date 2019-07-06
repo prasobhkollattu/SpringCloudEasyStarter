@@ -1,17 +1,31 @@
 # SpringCloudEasyStarter
-A simple Spring cloud project with most common components for easy startup
+A simple Spring cloud project with most common components for easy startup.  
+This project address followig issues:  
+1.Configutaion Management  
+2.Service discovery  
+3.Gateway and reverse proxy  
+4.Log monitoring  
+5.Load balancing  
+
+Application have following modules and should be started sequentially.   
+1.DiscoveryServer  
+  This module will start Euereka server and all services will be registered and discoved here.  
+  Eureka:    
+  http://localhost:8761/    
+  
+ 2.ConfigServer  
+   This module will take care of all services configuration  
+   
 
 
-
-How to start?
-Install Spring Tool Suit:
-https://spring.io/tools
-Import Existing Maven project and browse root pom.xml.
+How to start?  
+1.Install Spring Tool Suit:  
+  https://spring.io/tools  
+2.Import Existing Maven project and browse root pom.xml.  
 
 
 Application & Test urls:  
-Eureka:  
-http://localhost:8761/  
+
 
 Zipkin URL:  
 http://localhost:9411/zipkin  
