@@ -33,9 +33,11 @@ SpringCloud is a wrapper around SpringBoot to address issues in distributed envi
      
      http://localhost:8080/book-service/books/message
      
-     However we have to make a explicit refresh call to our service using acuator.
-     Fina any instance of the service from Eureka and clik on it it will showing like http://192.168.0.87:64826/actuator/info, port will be differnt.Chand info with refresh and hit.This will refesh prop val in all service intsances.       
-     Eg URL: http://192.168.0.87:64826/actuator/refresh
+     However we have to make a explicit refresh call to our service using actuator.
+     Find any instance of the bookservice from Eureka admin console and click on it it will showing like http://192.168.0.87:64826/actuator/info, port may be diffrent.Change info with refresh and hit.This will refesh prop value in all service instances.       
+     Eg URL: http://192.168.0.87:64826/actuator/refresh  
+     
+    Try calling http://localhost:8080/book-service/books/message again.It will show new message.Its also show server instance id in reponse to show load balancing.    
      
      
      
