@@ -9,14 +9,13 @@ https://spring.io/tools
 Import Existing Maven project and browse root pom.xml.
 
 
-Application & Test urls
-Eureka:
-http://localhost:8761/
+Application & Test urls:  
+Eureka:  
+http://localhost:8761/  
 
-Zipkin URL:
-http://localhost:9411/zipkin
-
-TestUrls:
-http://localhost:8080/book-service/books
-http://localhost:8080/book-service/books/message
-http://localhost:8080/book-service/books/12345
+Zipkin URL:  
+http://localhost:9411/zipkin  
+TestUrls:  
+http://localhost:8080/book-service/books  
+http://localhost:8080/book-service/books/message  
+http://localhost:8080/book-service/books/12345  
