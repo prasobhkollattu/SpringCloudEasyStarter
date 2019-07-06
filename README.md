@@ -40,6 +40,8 @@ SpringCloud is a wrapper around SpringBoot to address issues in distributed envi
     Try calling http://localhost:8080/book-service/books/message again.It will show new message.Its also show server instance id in reponse to show load balancing.    
     **Note**: Please refer BookServiceApplicationTests to see a baci unit testing with mocking.  
      
+     **How to create new instance of the service ?**  
+     Navigate to Boot Dashboard in SPingTooSuite IDE and right click the service and selecte Duplicate config :stuck_out_tongue_winking_eye:  
      
    - **StoreService**  
      This is a boot micro service to deliver books and this service.**You can start any number of instance of this service**.It will automatically get a random port.And this service will be invoked using Gateway url.    
