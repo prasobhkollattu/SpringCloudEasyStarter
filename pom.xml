@@ -6,36 +6,35 @@
    <version>1.0.0</version>
    <packaging>pom</packaging>
    <name>SpringCloudEasyStarterBase</name>
-   
-   	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.6.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
-	</parent>
-	
+   <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>2.1.6.RELEASE</version>
+      <relativePath />
+      <!-- lookup parent from repository -->
+   </parent>
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
    <modules>
       <module>DiscoveryServer</module>
-	   <module>ConfigServer</module>
-	    <module>ZipkinServer</module>
-		 <module>BookService</module>
-		  <module>StoreService</module>
-		   <module>GatewayServer</module>
+      <module>ConfigServer</module>
+      <module>ZipkinServer</module>
+      <module>BookService</module>
+      <module>StoreService</module>
+      <module>GatewayServer</module>
    </modules>
    <build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<encoding>UTF-8</encoding>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
-		</plugins>	
-	</build>
+      <plugins>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+               <encoding>UTF-8</encoding>
+               <source>1.8</source>
+               <target>1.8</target>
+            </configuration>
+         </plugin>
+      </plugins>
+   </build>
 </project>

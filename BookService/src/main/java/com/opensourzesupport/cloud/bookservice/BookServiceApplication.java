@@ -25,8 +25,16 @@ import com.opensourzesupport.cloud.bookservice.models.Book;
 @EnableDiscoveryClient
 @RestController
 @RequestMapping("/books")
-//@RefreshScope
-//@EnableFeignClients
+//@EnableFeignClients //enable this to use Feign client instead of rest template
+
+/**
+ * Books service. Ideally we should have a service class and dao class.But for
+ * the sake of simplicity i have not used that deigin.We only have a single
+ * controller
+ * 
+ * @author PRASOBH KOLLATTU
+ *
+ */
 public class BookServiceApplication {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(BookServiceApplication.class);
@@ -64,7 +72,7 @@ public class BookServiceApplication {
 
 	@GetMapping("")
 	public List<Book> findAllBooks() {
-		LOGGER.warn("books inoved");
+		LOGGER.warn("books invoked");
 		return bookList;
 	}
 

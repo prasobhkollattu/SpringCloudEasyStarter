@@ -16,6 +16,14 @@ import com.opensourzesupport.cloud.store.models.Book;
 @EnableDiscoveryClient
 @RestController
 @RequestMapping("/stores")
+/**
+ * Store service.Ideally we should have a service class and dao class.But for
+ * the sake of simplicity i have not used that deigin.We only have a single
+ * controller
+ * 
+ * @author PRASOBH KOLLATTU
+ *
+ */
 public class StoreServiceApplication {
 
 	@Value("${eureka.instance.instance-id}")

@@ -3,6 +3,7 @@
 .project
 .settings/
 .metadata
+.factorypath
 mvnw
 mvnw.cmd
 HELP.md
