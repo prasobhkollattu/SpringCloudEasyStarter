@@ -15,6 +15,9 @@ Application have following modules and should be started sequentially.
   
  - **ConfigServer**    
    This module will take care of all services configuration  
+   Please copy folder git_repo\application-config in any of your system folder and update in application.properties.     
+   All configurations should be in a seperate git folder, normally it should be in git repo.In this project I have used file file url.
+  The git file url should be update in **ConfigServer\src\main\resources\application.properties**  
   - **ZipkinServer**  
     This module used for starting zipkin server and all logs can be monitored here.  
     http://localhost:9411/zipkin   
@@ -31,15 +34,14 @@ Application have following modules and should be started sequentially.
      
   - **Gateway**  
      This module will act as a gateway and reverse proxy for our application.  
-     Client only need to know the Gateway domain and port and no need to bother about CORS issues, it will internally mapping request to corresponding service.Also request will be load balanced internally.Even though we have many micro services, for the clinet they will feel like calling a traditional moniletic application :smile:  
+     Client only need to know the Gateway domain and port and no need to bother about CORS issues, it will internally mapping request to corresponding service.Also request will be load balanced internally.Even though we have many micro services, for the clinet they will feel like calling a traditional Monolithic application :smile:  
 
 
 How to start?  
 1.Install Spring Tool Suit:  
   [SpringToolSuite](https://spring.io/tools)  
 2.Import Existing Maven project and browse root pom.xml.  
-  All configurations should be in a seperate git folder, normally it should be in git repo.In tis project I have used file file url.
-  The git file url should be update in **ConfigServer\src\main\resources\application.properties**
+  
 
 Application & Test urls:  
 
