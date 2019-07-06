@@ -22,7 +22,8 @@ How to start?
 1.Install Spring Tool Suit:  
   [SpringToolSuite](https://spring.io/tools)  
 2.Import Existing Maven project and browse root pom.xml.  
-
+  All configurations should be in a seperate git folder, normally it should be in git repo.In tis project I have used file file url.
+  The git file url should be update in **ConfigServer\src\main\resources\application.properties**
 
 Application & Test urls:  
 
