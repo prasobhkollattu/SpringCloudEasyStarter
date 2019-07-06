@@ -66,4 +66,6 @@ http://localhost:8080/book-service/books/message
 http://localhost:8080/book-service/books/12345  
 
 
+Note: I have not captured authentication,authorization,transaction management etc.And this is currently not in the scope of this project.
+
 Enjoy coding :+1:
