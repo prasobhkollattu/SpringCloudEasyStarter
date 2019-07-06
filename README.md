@@ -20,9 +20,9 @@ Application have following modules and should be started sequentially.
     http://localhost:9411/zipkin   
   - **BookService**  
      This is a boot micro service to deliver books and this service internally call StoreService if some books are not available.
-     You can start any number of instance of this service.It will automatically get a random port.And this service will be invoked using gateway url.  
+     You can start any number of instance of this service.It will automatically get a random port.And this service will be invoked using Gateway url.  
      http://localhost:8080/book-service/books    
-     port 808 is of Gateway  
+     port 8080 is of Gateway  
   
    
 
