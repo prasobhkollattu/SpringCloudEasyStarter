@@ -7,7 +7,7 @@ A simple Spring cloud project with most common components for easy startup.
 - Log monitoring  
 - Load balancing  
 
-**Application have following modules and should be started sequentially.**    
+**SpringCloudEasyStarter have following modules and should be started sequentially.**    
 - **DiscoveryServer**  
   This module will start Euereka server and all services will be registered and discoved here.  
   Eureka:    
