@@ -39,17 +39,13 @@ A simple Spring cloud project with most common components for easy startup.
      
 
 
-How to start?  
+**How to start?**  
 1.Install Spring Tool Suit:  
   [SpringToolSuite](https://spring.io/tools)  
 2.Import Existing Maven project and browse root pom.xml.  
   
 
-Application & Test urls:  
-
-
-Zipkin URL:  
-http://localhost:9411/zipkin  
+**Test urls:**   
 TestUrls:  
 http://localhost:8080/book-service/books  
 http://localhost:8080/book-service/books/message  
