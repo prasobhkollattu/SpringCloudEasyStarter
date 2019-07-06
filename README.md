@@ -1,5 +1,5 @@
 # SpringCloudEasyStarter
-A simple Spring cloud project with most common spring cloud components for easy project setup :blush:. 
+A simple Spring cloud project with most common spring cloud components for easy project setup :blush:  
 SpringCloud is a wrapper around SpringBoot to address issues in distributed environments.  
 
 **This project address followig issues in a distributed environment:**    
