@@ -29,8 +29,9 @@ Application have following modules and should be started sequentially.
      http://localhost:8080/store-service/book     
      **Note** Port 8080 is of Gateway     
      
-  
-   
+  - **Gateway**  
+     This module will act as a gateway and reverse proxy for our application.  
+     Client only need to know the Gateway domain and port, it will internally mapping request to corresponding service.Also request will be load balaced internally.  
 
 
 How to start?  
