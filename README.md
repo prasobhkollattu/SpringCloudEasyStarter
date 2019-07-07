@@ -34,11 +34,11 @@ SpringCloud is a wrapper around SpringBoot to address issues in distributed envi
      http://localhost:8080/book-service/books/message
      
      However we have to make a explicit refresh call to our service using actuator.
-     Find any instance of the bookservice from Eureka admin console and click on it it will showing like http://192.168.0.87:64826/actuator/info, port may be diffrent.Change info with refresh and hit.This will refesh prop value in all service instances.       
+     Find any instance of the bookservice from Eureka admin console and click on it it will showing like http://192.168.0.87:64826/actuator/info, port may be different.Change info with refresh and hit.This will refesh prop value in all service instances.       
      Eg URL: http://192.168.0.87:64826/actuator/refresh  
      
     Try calling http://localhost:8080/book-service/books/message again.It will show new message.Its also show server instance id in reponse to show load balancing.    
-    **Note**: Please refer BookServiceApplicationTests to see a baci unit testing with mocking.  
+    **Note**: Please refer BookServiceApplicationTests to see a basci unit testing with mocking.  
      
      **How to create new instance of the service ?**  
      Navigate to Boot Dashboard in SpringToolSuite IDE and right click the service and select Duplicate config :stuck_out_tongue_winking_eye:  
